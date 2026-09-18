@@ -1,0 +1,23 @@
+{
+    "name": "helsingborg-stad/wpmu-fatal-error-when-translation-too-early",
+    "homepage": "https://github.com/helsingborg-stad/wpmu-fatal-error-when-translation-too-early",
+    "description": "Throws a descriptive exception when scripts or styles are registered or enqueued before the appropriate WordPress hook.",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^2.3"
+    },
+    "version": "0.2.0",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
