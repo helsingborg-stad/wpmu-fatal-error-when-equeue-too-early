@@ -3,7 +3,7 @@
 /**
  * Plugin Name: WPMU Fatal Error When Enqueued Too Early
  * Description: Throws a descriptive exception when scripts or styles are registered or enqueued before the appropriate WordPress hook.
- * Version: 0.1.0
+ * Version: 0.1.2
  * Author:      Helsingborgs stad
  */
 
